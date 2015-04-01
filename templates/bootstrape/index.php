@@ -11,7 +11,7 @@
 <div class="col-xs-6">
 <h1>
 <a href="https://jigsawacademy.com/">
-<img src="img/logo.png"></a>
+<img src="<?php echo $current_dir.'img/logo.png'; ?>"></a>
 </h1>
 </div>
 <div class="col-xs-6 text-right">
@@ -23,7 +23,7 @@
 <div class="col-xs-5">
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4>From: <a href="#">Your Name</a></h4>
+<h4>From: Your Name</h4>
 </div>
 <div class="panel-body">
 <p>
@@ -37,7 +37,7 @@ more <br>
 <div class="col-xs-5 col-xs-offset-2 text-right">
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4>To : <a href="#">Client Name</a></h4>
+<h4>To : Client Name</h4>
 </div>
 <div class="panel-body">
 <p>
@@ -73,21 +73,21 @@ more <br>
 <tbody>
 <tr>
 <td>Article</td>
-<td><a href="#">Title of your article here</a></td>
+<td>Title of your article here</td>
 <td class="text-right">-</td>
 <td class="text-right">$200.00</td>
 <td class="text-right">$200.00</td>
 </tr>
 <tr>
 <td>Template Design</td>
-<td><a href="#">Details of project here</a></td>
+<td>Details of project here</td>
 <td class="text-right">10</td>
 <td class="text-right">75.00</td>
 <td class="text-right">$750.00</td>
 </tr>
 <tr>
 <td>Development</td>
-<td><a href="#">WordPress Blogging theme</a></td>
+<td>WordPress Blogging theme</td>
 <td class="text-right">5</td>
 <td class="text-right">50.00</td>
 <td class="text-right">$250.00</td>

@@ -9,12 +9,15 @@ This file demonstrates most of the HTML elements.
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 ';
- 
-include("lib/mpdf//mpdf.php");
-$mpdf=new mPDF();
 
 
-$mpdf->WriteHTML($html);
-$mpdf->Output();
+
+$template = 'bootstrape';
+
+// pdf lib
+require_once 'lib/mpdf/mpdf.php';
+
+//templt
+include_once 'templates/'.$template.'/template.php';
 
 ?>
